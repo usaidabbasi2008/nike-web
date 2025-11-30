@@ -93,8 +93,9 @@ a:hover {
 
 @media screen and (max-width:480px) {
 
-    .bar {
-        display: block;
+    .bar  {
+        display: block !important; 
+        
 
     }
 
@@ -102,6 +103,29 @@ a:hover {
         padding-top: 100px;
 
     }
+
+
+
+#casualshoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    background-color: white;
+    
+}
+.formalshoesc{
+    display: flex;
+    flex-flow: column;
+    padding-left: 115px;
+    
+}
+p{
+    position: relative;
+    right: 100px;
+}
+
+
 
 
 
@@ -209,8 +233,9 @@ button {
 .background {
     margin-top: 100px;
     background-color: #dedcdc;
-    height: 1000px;
+    height: 1500px;
     width: 100%;
+    
 }
 
 .casualshoesh {
@@ -218,17 +243,17 @@ button {
     font-size: 48px;
     color: #363958;
     position: relative;
-    left: 100px;
+    left: 140px;
     top: 70px;
 }
 
 .casualshoes {
     display: flex;
     flex-flow: column;
-    margin-left: 100px;
+    margin-left: 25px;
     background-color: aliceblue;
-    width: 430px;
-    height: 590px;
+    width: 410px;
+    height: 560px;
 
     align-items: center;
     padding-top: 10px;
@@ -242,7 +267,7 @@ button {
 
 .casualshoes img {
 
-    width: 400px;
+    width: 380px;
     background-color: #ececec;
     border-radius: 15px;
  
@@ -299,7 +324,7 @@ margin-top: 10px;
     text-align: center;
     margin-top: 10px;
     justify-self: first baseline;
-    padding-right: 25px;
+    padding-right: 13px;
 
 
 }
@@ -308,7 +333,7 @@ margin-top: 10px;
 }
 .price{
     display: flex;
-    gap: 200px;
+    gap: 170px;
 }
 .dollar {
     font-family: 'roboto', sans-serif;
@@ -319,6 +344,53 @@ margin-top: 10px;
     margin-top: 20px;
     color: #ff8367;
 }
+#casualshoes{
+    display: flex;
+    justify-content: center;
+    
+}
 
+
+
+
+.formalshoes{
     
     
+      display: flex;
+  flex-flow: column;
+  margin-left: 25px;
+  background-color: rgb(255, 255, 255);
+  width: 410px;
+  height: 560px;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 15px;
+  margin-top: 70px;
+  
+    box-shadow: 3px 3px 3px rgb(208, 208, 208);
+  
+    
+    
+}
+.formalshoes img{
+     width: 380px;
+ background-color: #ececec;
+ background: none;
+}
+.formalshoesc{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    
+}
+    .formalshoesh {
+            font-family: 'Bebas Neue';
+    font-size: 48px;
+    color: #363958;
+    position: relative;
+    left: 230px;
+    top: 10px;
+
+    }
