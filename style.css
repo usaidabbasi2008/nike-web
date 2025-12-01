@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    
 }
 
 .logo {
@@ -91,54 +91,6 @@ a:hover {
     display: none;
 }
 
-@media screen and (max-width:480px) {
-
-    .bar  {
-        display: block !important; 
-        
-
-    }
-
-    .firstcontent {
-        padding-top: 100px;
-
-    }
-
-
-
-#casualshoes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 15px;
-    background-color: white;
-    
-}
-.formalshoesc{
-    display: flex;
-    flex-flow: column;
-    padding-left: 115px;
-    
-}
-p{
-    position: relative;
-    right: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-    .navtext {
-        display: none;
-    }
-}
 
 .container {
     display: flex;
@@ -233,7 +185,7 @@ button {
 .background {
     margin-top: 100px;
     background-color: #dedcdc;
-    height: 1500px;
+    height: 2000px;
     width: 100%;
     
 }
@@ -253,7 +205,7 @@ button {
     margin-left: 25px;
     background-color: aliceblue;
     width: 410px;
-    height: 560px;
+    height: 580px;
 
     align-items: center;
     padding-top: 10px;
@@ -334,6 +286,7 @@ margin-top: 10px;
 .price{
     display: flex;
     gap: 170px;
+    padding-bottom: 20px;
 }
 .dollar {
     font-family: 'roboto', sans-serif;
@@ -394,3 +347,129 @@ margin-top: 10px;
     top: 10px;
 
     }
+
+    .width{
+width: 100%;
+    }
+    .width img{
+        width: 100%;
+    }
+        
+     
+    .img7{
+        
+        display: inline;
+        display: flex;
+        justify-content: end;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+.find img{
+    width: 80px;
+    margin: 20px;
+    padding-right: 30px;
+}
+.find{
+    display: flex;
+    
+    background-color: white;
+    width: 450px;
+    margin-left: 130px;
+    padding-left: 30px;
+    padding-right: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.fcontainer{
+
+display: flex;
+flex-direction: column;
+
+}
+.ftext{
+    
+    display: flex;
+flex-direction: column;
+padding-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+
+}
+.fh{
+font-family: 'Roboto';
+font-size: 25px;
+font-weight: bolder;
+color: #363958;
+padding:3px ;
+padding-bottom: 10px;
+    
+    
+}
+.ffcontainer{
+    display: flex   ;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    bottom: 400px;
+}
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:480px) {
+
+    .bar  {
+        display: block !important; 
+        
+
+    }
+
+    .firstcontent {
+        padding-top: 100px;
+
+    }
+
+
+
+#casualshoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    background-color: white;
+    
+}
+.formalshoesc{
+    display: flex;
+    flex-flow: column;
+    padding-left: 115px;
+    
+}
+p{
+    position: relative;
+    right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    .navtext {
+        display: none;
+    }
+}
